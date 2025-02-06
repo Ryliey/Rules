@@ -1,0 +1,51 @@
+name: Sync READMEs
+
+on:
+  push:
+    paths:
+      - 'Clash/README.md'
+      - 'Sing-Box/README.md'
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine sync direction
+        id: direction
+        run: |
+          modified_files=$(git diff --name-only HEAD^ HEAD)
+          
+          if echo "$modified_files" | grep -q "Clash/README.md"; then
+            echo "SOURCE=Clash" >> $GITHUB_ENV
+            echo "TARGET=Sing-Box" >> $GITHUB_ENV
+          elif echo "$modified_files" | grep -q "Sing-Box/README.md"; then
+            echo "SOURCE=Sing-Box" >> $GITHUB_ENV
+            echo "TARGET=Clash" >> $GITHUB_ENV
+          else
+            echo "No relevant README modified"
+            exit 0
+          fi
+
+      - name: Perform sync
+        run: |
+          cp "${{ env.SOURCE }}/README.md" "${{ env.TARGET }}/README.tmp"
+
+          sed -i "s|tree/main/${{ env.SOURCE }}/|tree/main/${{ env.TARGET }}/|g" "${{ env.TARGET }}/README.tmp"
+
+          mv "${{ env.TARGET }}/README.tmp" "${{ env.TARGET }}/README.md"
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${{ env.TARGET }}/README.md"
+          
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(sync): $SOURCE → $TARGET readme sync [bot]"
+            git push
+          fi

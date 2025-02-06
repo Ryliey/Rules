@@ -1,0 +1,90 @@
+name: Rules Converter
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Clash/**"
+      - "!Clash/README.md"
+      - "Sing-Box/**"
+      - "!Sing-Box/README.md"
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    env:
+      SING_BOX_VERSION: "1.11.0"
+      SING_BOX_ARCH: "linux-amd64"
+      GO_CACHE_DIR: ~/go/pkg/mod
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get environment variables
+        run: |
+          echo "BEFORE_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
+          echo "AFTER_COMMIT=${{ github.event.after }}" >> $GITHUB_ENV
+
+      - name: Checkout RuleTrans
+        uses: actions/checkout@v3
+        with:
+          repository: Ryliey/RuleTrans
+          path: ruletrans
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.23.4"
+          cache: true
+          cache-dependency-path: ruletrans/go.sum
+
+      - name: Cache Go modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ${{ env.GO_CACHE_DIR }}
+            ruletrans/go.sum
+          key: ${{ runner.os }}-go-${{ hashFiles('ruletrans/go.sum') }}
+
+      - name: Prepare dependencies
+        run: |
+          cd ruletrans
+          go mod tidy
+          cd ..
+
+      - name: Copy RuleTrans
+        run: |
+          cp -r ruletrans/* .
+          rm -rf ruletrans
+
+      - name: Install sing-box
+        run: |
+          DOWNLOAD_URL="https://github.com/SagerNet/sing-box/releases/download/v${{ env.SING_BOX_VERSION }}/sing-box-${{ env.SING_BOX_VERSION }}-${{ env.SING_BOX_ARCH }}.tar.gz"
+          
+          curl -LO $DOWNLOAD_URL
+          tar -xzf "sing-box-${{ env.SING_BOX_VERSION }}-${{ env.SING_BOX_ARCH }}.tar.gz"
+          rm "sing-box-${{ env.SING_BOX_VERSION }}-${{ env.SING_BOX_ARCH }}.tar.gz"
+          
+          SING_BOX_DIR=$(find . -maxdepth 1 -type d -name "sing-box-${{ env.SING_BOX_VERSION }}-${{ env.SING_BOX_ARCH }}")
+          SING_BOX_DIR=${SING_BOX_DIR#./}
+          
+          SING_BOX_DIR=$(ls | grep "sing-box-${{ env.SING_BOX_VERSION }}")
+          sudo mv "$SING_BOX_DIR/sing-box" /usr/local/bin/
+
+      - name: Convert Rules
+        run: |
+          go run ./cmd/converter/main.go
+
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add Clash Sing-Box
+          git commit -m "chore(rules): auto-convert rules [bot]" || exit 0
+          git pull --rebase origin main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git --force
