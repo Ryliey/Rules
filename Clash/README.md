@@ -2,7 +2,7 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
 | [YouTube](https://github.com/Ryliey/Rules/tree/main/Clash/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Clash/Google) |      |      |      |
 |                                                              |                                                              |      |      |      |
-| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Clash/OpenAI) | [Bing](https://github.com/Ryliey/Rules/tree/main/Clash/Bing) |      |      |      |
+|                                                              | [Bing](https://github.com/Ryliey/Rules/tree/main/Clash/Bing) |      |      |      |
 
 |                         🌏GlobalMedia                         |      |      |      |      |
 | :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
