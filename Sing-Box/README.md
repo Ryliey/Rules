@@ -1,8 +1,8 @@
-|                           🌏Global                            |                                                              |      |      |      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
-| [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Google) |      |      |      |
-|                                                              |                                                              |      |      |      |
-|                                                              | [Bing](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Bing) |      |      |      |
+|                           🌏Global                            |                                                              |                                                              |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
+| [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Google) |                                                              |      |      |
+|                                                              |                                                              |                                                              |      |      |
+|                                                              | [Bing](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Bing) | [Telegram](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Telegram) |      |      |
 
 |                         🌏GlobalMedia                         |      |      |      |      |
 | :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
