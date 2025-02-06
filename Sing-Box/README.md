@@ -2,7 +2,7 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
 | [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Google) |      |      |      |
 |                                                              |                                                              |      |      |      |
-| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Sing-Box/OpenAI) | [Bing](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Bing) |      |      |      |
+|                                                              | [Bing](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Bing) |      |      |      |
 
 |                         🌏GlobalMedia                         |      |      |      |      |
 | :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
