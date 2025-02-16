@@ -2,7 +2,7 @@
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
 | [YouTube](https://github.com/Ryliey/Rules/tree/main/Clash/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Clash/Google) |                                                              |      |      |
 |                                                              |                                                              |                                                              |      |      |
-|                                                              | [Bing](https://github.com/Ryliey/Rules/tree/main/Clash/Bing) | [Telegram](https://github.com/Ryliey/Rules/tree/main/Clash/Telegram) |      |      |
+| [Mozilla](https://github.com/Ryliey/Rules/tree/main/Clash/Mozilla) | [Bing](https://github.com/Ryliey/Rules/tree/main/Clash/Bing) | [Telegram](https://github.com/Ryliey/Rules/tree/main/Clash/Telegram) |      |      |
 
 |                         🌏GlobalMedia                         |      |      |      |      |
 | :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
