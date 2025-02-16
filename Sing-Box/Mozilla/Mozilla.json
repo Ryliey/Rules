@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "bugzilla.org",
+        "mdn.dev",
+        "mdnplay.dev",
+        "mdnyalp.dev",
+        "extensionworkshop.com",
+        "firefox.com",
+        "firefox.com.cn",
+        "firefoxusercontent.com",
+        "getpocket.com",
+        "mdn.mozillademos.org",
+        "mofoprod.net",
+        "mozilla.com",
+        "mozilla.community",
+        "mozilla.net",
+        "mozilla.org",
+        "pocket-image-cache.com",
+        "seamonkey-project.org",
+        "thunderbird.net",
+        "mdn.allizom.net",
+        "mdn.mozit.cloud"
+      ]
+    }
+  ]
+}
