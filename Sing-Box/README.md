@@ -1,14 +1,14 @@
 |                           🌏Global                            |                                                              |                                                              |      |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Google) |                                                              |      |      |
+|                                                              | [Google](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Google) |                                                              |      |      |
 |                                                              |                                                              |                                                              |      |      |
 | [Mozilla](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Mozilla) | [Bing](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Bing) | [Telegram](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Telegram) |      |      |
 
-|                         🌏GlobalMedia                         |      |      |      |      |
-| :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
-| [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) |      |      |      |      |
-|                                                              |      |      |      |      |
-|                                                              |      |      |      |      |
+|                         🌏GlobalMedia                         |                                                              |      |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
+| [YouTube](https://github.com/Ryliey/Rules/tree/main/Sing-Box/YouTube) | [Spotify](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Spotify) |      |      |      |
+|                                                              |                                                              |      |      |      |
+|                                                              |                                                              |      |      |      |
 
 |                             🤖AI                              |                                                              |      |      |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
