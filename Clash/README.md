@@ -1,14 +1,14 @@
 |                           🌏Global                            |                                                              |                                                              |      |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| [YouTube](https://github.com/Ryliey/Rules/tree/main/Clash/YouTube) | [Google](https://github.com/Ryliey/Rules/tree/main/Clash/Google) |                                                              |      |      |
+|                                                              | [Google](https://github.com/Ryliey/Rules/tree/main/Clash/Google) |                                                              |      |      |
 |                                                              |                                                              |                                                              |      |      |
 | [Mozilla](https://github.com/Ryliey/Rules/tree/main/Clash/Mozilla) | [Bing](https://github.com/Ryliey/Rules/tree/main/Clash/Bing) | [Telegram](https://github.com/Ryliey/Rules/tree/main/Clash/Telegram) |      |      |
 
-|                         🌏GlobalMedia                         |      |      |      |      |
-| :----------------------------------------------------------: | :--: | :--: | :--: | :--: |
-| [YouTube](https://github.com/Ryliey/Rules/tree/main/Clash/YouTube) |      |      |      |      |
-|                                                              |      |      |      |      |
-|                                                              |      |      |      |      |
+|                         🌏GlobalMedia                         |                                                              |      |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
+| [YouTube](https://github.com/Ryliey/Rules/tree/main/Clash/YouTube) | [Spotify](https://github.com/Ryliey/Rules/tree/main/Clash/Spotify) |      |      |      |
+|                                                              |                                                              |      |      |      |
+|                                                              |                                                              |      |      |      |
 
 |                             🤖AI                              |                                                              |      |      |      |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
