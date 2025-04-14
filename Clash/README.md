@@ -22,9 +22,9 @@
 |       |                                                              |      |      |      |
 |       |                                                              |      |      |      |
 
-|                        ☁️Cloud Storage                        |      |      |      |      |
-| :----------------------------------------------------------: | :--: | ---- | ---- | ---- |
-| [GoogleDrive](https://github.com/Ryliey/Rules/tree/main/Clash/GoogleDrive) |      |      |      |      |
-|                                                              |      |      |      |      |
-|                                                              |      |      |      |      |
+|                        ☁️Cloud Storage                        |                                                              |      |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ---- | ---- | ---- |
+| [GoogleDrive](https://github.com/Ryliey/Rules/tree/main/Clash/GoogleDrive) | [OneDrive](https://github.com/Ryliey/Rules/tree/main/Clash/OneDrive) |      |      |      |
+|                                                              |                                                              |      |      |      |
+|                                                              |                                                              |      |      |      |
 
