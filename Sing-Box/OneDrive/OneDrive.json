@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "1drv.com",
+        "onedrive.com",
+        "photos.live.com",
+        "storage.live.com",
+        "onedrive.live.com",
+        "odwebp.svc.ms",
+        "docs.live.net",
+        "skyapi.live.net"
+      ]
+    }
+  ]
+}

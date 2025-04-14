@@ -22,9 +22,9 @@
 |       |                                                              |      |      |      |
 |       |                                                              |      |      |      |
 
-|                        ☁️Cloud Storage                        |      |      |      |      |
-| :----------------------------------------------------------: | :--: | ---- | ---- | ---- |
-| [GoogleDrive](https://github.com/Ryliey/Rules/tree/main/Sing-Box/GoogleDrive) |      |      |      |      |
-|                                                              |      |      |      |      |
-|                                                              |      |      |      |      |
+|                        ☁️Cloud Storage                        |                                                              |      |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | ---- | ---- | ---- |
+| [GoogleDrive](https://github.com/Ryliey/Rules/tree/main/Sing-Box/GoogleDrive) | [OneDrive](https://github.com/Ryliey/Rules/tree/main/Sing-Box/OneDrive) |      |      |      |
+|                                                              |                                                              |      |      |      |
+|                                                              |                                                              |      |      |      |
 
