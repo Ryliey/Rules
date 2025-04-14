@@ -1,0 +1,3 @@
+payload:
+    - DOMAIN,grok.com
+    - DOMAIN,x.ai
