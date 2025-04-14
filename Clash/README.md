@@ -10,11 +10,11 @@
 |                                                              |                                                              |      |      |      |
 |                                                              |                                                              |      |      |      |
 
-|                             🤖AI                              |                                                              |      |      |      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: | :--: |
-| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Clash/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Clash/Claude) |      |      |      |
-|                                                              |                                                              |      |      |      |
-|                                                              |                                                              |      |      |      |
+|                             🤖AI                              |                                                              |                                                              |      |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
+| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Clash/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Clash/Claude) | [Grok](https://github.com/Ryliey/Rules/tree/main/Clash/Grok) |      |      |
+|                                                              |                                                              |                                                              |      |      |
+|                                                              |                                                              |                                                              |      |      |
 
 | 🎮Game |                                                              |      |      |      |
 | :---: | :----------------------------------------------------------: | :--: | :--: | :--: |
