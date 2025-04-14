@@ -5,7 +5,8 @@
       "domain": [
         "drive.google.com",
         "docs.google.com",
-        "drivefrontend-pa.clients6.google.com"
+        "drivefrontend-pa.clients6.google.com",
+        "drive.usercontent.google.com"
       ]
     }
   ]
