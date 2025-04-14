@@ -1,0 +1,5 @@
+payload:
+    - DOMAIN,drive.google.com
+    - DOMAIN,docs.google.com
+    - DOMAIN,drivefrontend-pa.clients6.google.com
+    - DOMAIN,drive.usercontent.google.com
