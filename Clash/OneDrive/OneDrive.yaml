@@ -1,0 +1,9 @@
+payload:
+    - DOMAIN,1drv.com
+    - DOMAIN,onedrive.com
+    - DOMAIN,photos.live.com
+    - DOMAIN,storage.live.com
+    - DOMAIN,onedrive.live.com
+    - DOMAIN,odwebp.svc.ms
+    - DOMAIN,docs.live.net
+    - DOMAIN,skyapi.live.net
