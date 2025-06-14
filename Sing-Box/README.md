@@ -10,11 +10,11 @@
 |                                                              |                                                              |      |      |      |
 |                                                              |                                                              |      |      |      |
 
-|                             🤖AI                              |                                                              |                                                              |      |      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Sing-Box/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Claude) | [Grok](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Grok) |      |      |
-|                                                              |                                                              |                                                              |      |      |
-|                                                              |                                                              |                                                              |      |      |
+|                             🤖AI                              |                                                              |                                                              |                                                              |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Sing-Box/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Claude) | [Grok](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Grok) | [Gemini](https://github.com/Ryliey/Rules/tree/main/Sing-Box/Gemini) |      |
+|                                                              |                                                              |                                                              |                                                              |      |
+|                                                              |                                                              |                                                              |                                                              |      |
 
 | 🎮Game |                                                              |      |      |      |
 | :---: | :----------------------------------------------------------: | :--: | :--: | :--: |
