@@ -10,11 +10,11 @@
 |                                                              |                                                              |      |      |      |
 |                                                              |                                                              |      |      |      |
 
-|                             🤖AI                              |                                                              |                                                              |      |      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: | :--: |
-| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Clash/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Clash/Claude) | [Grok](https://github.com/Ryliey/Rules/tree/main/Clash/Grok) |      |      |
-|                                                              |                                                              |                                                              |      |      |
-|                                                              |                                                              |                                                              |      |      |
+|                             🤖AI                              |                                                              |                                                              |                                                              |      |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+| [OpenAI](https://github.com/Ryliey/Rules/tree/main/Clash/OpenAI) | [Claude](https://github.com/Ryliey/Rules/tree/main/Clash/Claude) | [Grok](https://github.com/Ryliey/Rules/tree/main/Clash/Grok) | [Gemini](https://github.com/Ryliey/Rules/tree/main/Clash/Gemini) |      |
+|                                                              |                                                              |                                                              |                                                              |      |
+|                                                              |                                                              |                                                              |                                                              |      |
 
 | 🎮Game |                                                              |      |      |      |
 | :---: | :----------------------------------------------------------: | :--: | :--: | :--: |
