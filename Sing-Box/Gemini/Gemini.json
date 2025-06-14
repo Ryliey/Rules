@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "gemini.google.com",
+        "proactivebackend-pa.googleapis.com"
+      ]
+    }
+  ]
+}
