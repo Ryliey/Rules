@@ -1,0 +1,33 @@
+# Per-service rule sources.
+#
+# Optional editorial metadata, cited in each service's generated README. This
+# file is hand-edited and never regenerated (unlike the rule files). Keys are
+# service names; both `description` and `sources` are optional.
+#
+# The entries below are EXAMPLES showing the format — replace them with the
+# actual upstream you derived each service's rules from (official provider docs,
+# another rule repo, etc.).
+services:
+  Google:
+    description: Google core domains and IP ranges
+    sources:
+      - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google
+      - https://github.com/v2fly/domain-list-community/blob/master/data/google
+  OpenAI:
+    description: OpenAI / ChatGPT API and web
+    sources:
+      - https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps#openaichatgpt-domains-to-allowlist
+      - https://openai.com/chatgpt-voice.json
+  Gemini:
+    description: Gemini API and web
+    sources:
+      - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Gemini/Gemini.list
+  GitHub:
+    sources:
+      - https://github.com/v2fly/domain-list-community/blob/master/data/github
+  Microsoft:
+    sources:
+      - https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
+  SteamCN:
+    sources:
+      - https://www.dogfight360.com/blog/knowledge-base/fix_steamdl_region

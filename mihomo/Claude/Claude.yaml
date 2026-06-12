@@ -1,0 +1,7 @@
+# Claude — Clash rule-provider (behavior: classical)
+# Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
+payload:
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
