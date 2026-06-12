@@ -1,0 +1,38 @@
+# RuleConv repository configuration.
+#
+# Consumed by the `ruleconv` CLI. The CDN templates build the download links in
+# every service README; the repo block fills the {owner}/{repo}/{branch}
+# placeholders.
+
+repo:
+  owner: Ryliey
+  name: Rules
+  branch: main
+
+# Download providers. Placeholders: {owner} {repo} {branch} {path}
+cdn:
+  - name: GitHub
+    template: "https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{path}"
+  - name: jsDelivr
+    template: "https://cdn.jsdelivr.net/gh/{owner}/{repo}@{branch}/{path}"
+  - name: jsDelivr-CF
+    template: "https://testingcf.jsdelivr.net/gh/{owner}/{repo}@{branch}/{path}"
+
+singbox:
+  # sing-box rule-set source schema version written into .json (and the .srs
+  # binary version). 4 corresponds to sing-box >= 1.13 (the pinned core below).
+  sourceVersion: 4
+
+# Core versions the CI workflows download to compile binaries. Keep these in
+# sync with the defaults in .github/actions/ruleconv/action.yml.
+cores:
+  mihomo:
+    version: v1.19.2
+  singbox:
+    version: 1.13.13
+
+# Optional explicit paths to the core binaries. Empty -> $MIHOMO_BIN / $SINGBOX_BIN
+# then PATH.
+bin:
+  mihomo: ""
+  singbox: ""

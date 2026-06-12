@@ -1,0 +1,7 @@
+# Cursor — Clash rule-provider (behavior: classical)
+# Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
+payload:
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com

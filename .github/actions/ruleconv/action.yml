@@ -1,0 +1,61 @@
+name: Set up RuleConv
+description: Download the ruleconv CLI release and optionally install the mihomo + sing-box cores.
+
+inputs:
+  ruleconv-repository:
+    description: owner/repo that publishes the RuleConv releases
+    default: Ryliey/RuleConv
+  ruleconv-version:
+    description: RuleConv release tag to download (e.g. v0.1.0), or "latest"
+    default: latest
+  install-cores:
+    description: install mihomo + sing-box (needed to compile binaries)
+    default: "true"
+  mihomo-version:
+    description: mihomo release tag (keep in sync with .ruleconv/config.yaml)
+    default: v1.19.2
+  singbox-version:
+    description: sing-box version, no leading v (keep in sync with config.yaml)
+    default: 1.13.13
+
+runs:
+  using: composite
+  steps:
+    - name: Install ruleconv
+      shell: bash
+      run: |
+        mkdir -p "$RUNNER_TEMP/bin"
+        repo='${{ inputs.ruleconv-repository }}'
+        ver='${{ inputs.ruleconv-version }}'
+        asset="ruleconv_linux_amd64.tar.gz"
+        if [ "$ver" = "latest" ]; then
+          url="https://github.com/${repo}/releases/latest/download/${asset}"
+        else
+          url="https://github.com/${repo}/releases/download/${ver}/${asset}"
+        fi
+        echo "Downloading $url"
+        curl -fsSL "$url" -o /tmp/ruleconv.tar.gz
+        tar -xzf /tmp/ruleconv.tar.gz -C "$RUNNER_TEMP/bin"
+        chmod +x "$RUNNER_TEMP/bin/ruleconv"
+        echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+        "$RUNNER_TEMP/bin/ruleconv" --version
+
+    - name: Install mihomo
+      if: inputs.install-cores == 'true'
+      shell: bash
+      run: |
+        v="${{ inputs.mihomo-version }}"
+        curl -fsSL "https://github.com/MetaCubeX/mihomo/releases/download/${v}/mihomo-linux-amd64-${v}.gz" -o /tmp/mihomo.gz
+        gunzip -f /tmp/mihomo.gz
+        install -m 0755 /tmp/mihomo "$RUNNER_TEMP/bin/mihomo"
+        "$RUNNER_TEMP/bin/mihomo" -v
+
+    - name: Install sing-box
+      if: inputs.install-cores == 'true'
+      shell: bash
+      run: |
+        v="${{ inputs.singbox-version }}"
+        curl -fsSL "https://github.com/SagerNet/sing-box/releases/download/v${v}/sing-box-${v}-linux-amd64.tar.gz" -o /tmp/sb.tar.gz
+        tar -xzf /tmp/sb.tar.gz -C /tmp
+        install -m 0755 "/tmp/sing-box-${v}-linux-amd64/sing-box" "$RUNNER_TEMP/bin/sing-box"
+        "$RUNNER_TEMP/bin/sing-box" version

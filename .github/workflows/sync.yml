@@ -1,0 +1,62 @@
+name: Sync rules
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Clash/**"
+      - "Sing-Box/**"
+      - "catalog.yaml"
+      - ".ruleconv/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ruleconv-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up RuleConv + cores
+        uses: ./.github/actions/ruleconv
+        with:
+          install-cores: "true"
+
+      - name: Compute changed paths
+        id: ch
+        shell: bash
+        run: |
+          base='${{ github.event.before }}'
+          if [ "${{ github.event_name }}" != "push" ] || [ -z "$base" ] || ! git cat-file -e "${base}^{commit}" 2>/dev/null; then
+            # First push or manual run: full sync (empty list).
+            echo "files=" >> "$GITHUB_OUTPUT"
+          else
+            files=$(git diff --name-only "$base" '${{ github.sha }}' -- 'Clash/**' 'Sing-Box/**' 'catalog.yaml' '.ruleconv/**' | tr '\n' ' ')
+            echo "files=${files}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Sync
+        shell: bash
+        # No paths -> full sync. Otherwise reconcile only the changed services.
+        run: ruleconv sync --repo . ${{ steps.ch.outputs.files }}
+
+      - name: Commit results
+        shell: bash
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m 'chore: sync rule sets [skip ci]'
+            git push
+          fi

@@ -1,0 +1,2 @@
+*.mrs filter=lfs diff=lfs merge=lfs -text
+*.srs filter=lfs diff=lfs merge=lfs -text

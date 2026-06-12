@@ -1,0 +1,33 @@
+# Editorial catalog.
+#
+# Maps services to display categories and fixes their order for the per-client
+# README indexes. A service directory that exists but is not listed here is
+# placed under "Uncategorized". Empty categories are skipped in the index.
+categories:
+  - name: Global
+    description: General multi-purpose services
+    services:
+      - Google
+      - Bing
+      - GitHub
+      - Microsoft
+  - name: AI
+    description: AI and APIs
+    services:
+      - OpenAI
+      - Claude
+      - Gemini
+      - Grok
+      - Cursor
+  - name: Media
+    description: Streaming and media
+    services: 
+      - YouTube
+      - Spotify
+  - name: Game
+    description: Game platforms
+    services: 
+      - SteamCN
+  - name: Cloud Storage
+    description: Object storage and file sync
+    services: []
