@@ -1,4 +1,4 @@
-# SteamCN — Clash rule-provider (behavior: classical)
+# SteamCN — mihomo rule-provider (behavior: classical)
 # Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN,gstore.val.manlaxy.com

@@ -1,4 +1,4 @@
-# GitHub — Clash rule-provider (behavior: classical)
+# GitHub — mihomo rule-provider (behavior: classical)
 # Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN,github-api.arkoselabs.com

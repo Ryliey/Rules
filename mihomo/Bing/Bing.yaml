@@ -1,4 +1,4 @@
-# Bing — Clash rule-provider (behavior: classical)
+# Bing — mihomo rule-provider (behavior: classical)
 # Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN-SUFFIX,bing.com
