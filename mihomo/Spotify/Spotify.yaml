@@ -1,4 +1,4 @@
-# Spotify — Clash rule-provider (behavior: classical)
+# Spotify — mihomo rule-provider (behavior: classical)
 # Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN,audio-ak-spotify-com.akamaized.net

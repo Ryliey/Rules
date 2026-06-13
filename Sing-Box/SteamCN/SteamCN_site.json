@@ -1,0 +1,30 @@
+{
+  "version": 4,
+  "rules": [
+    {
+      "domain": [
+        "gstore.val.manlaxy.com",
+        "xz.pphimalayanrt.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "csgo.wmsj.cn",
+        "dl.steam.clngaa.com",
+        "dl.steam.ksyna.com",
+        "dota2.wmsj.cn",
+        "st.dl.bscstorage.net",
+        "st.dl.eccdnx.com",
+        "st.dl.pinyuncloud.com",
+        "steamchina.com",
+        "steamcontent.com",
+        "steampipe.steamcontent.tnkjmec.com",
+        "steampowered.com.8686c.com",
+        "steamserver.net",
+        "steamstatic.com.8686c.com",
+        "steamusercontent.com",
+        "wmsjsteam.com"
+      ]
+    }
+  ]
+}

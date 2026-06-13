@@ -1,4 +1,4 @@
-# Microsoft — Clash rule-provider (behavior: classical)
+# Microsoft — mihomo rule-provider (behavior: classical)
 # Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN,b.c2r.ts.cdn.office.net
