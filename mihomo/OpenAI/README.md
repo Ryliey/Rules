@@ -4,25 +4,9 @@
 
 OpenAI / ChatGPT API and web
 
-## Files
+## Binaries
 
-### `OpenAI.yaml` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI.yaml` |
-
-### `OpenAI_site.yaml` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI_site.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.yaml` |
-
-### `OpenAI_site.mrs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -30,15 +14,7 @@ OpenAI / ChatGPT API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.mrs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.mrs` |
 
-### `OpenAI_ip.yaml` — ip · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI_ip.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.yaml` |
-
-### `OpenAI_ip.mrs` — ip · binary
+### IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -46,7 +22,33 @@ OpenAI / ChatGPT API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.mrs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.mrs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI.yaml` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI_site.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_site.yaml` |
+
+### IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/OpenAI/OpenAI_ip.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/OpenAI/OpenAI_ip.yaml` |
+
+## Upstream sources
 
 - https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps#openaichatgpt-domains-to-allowlist
 - https://openai.com/chatgpt-voice.json

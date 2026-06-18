@@ -4,17 +4,9 @@
 
 Google core domains and IP ranges
 
-## Files
+## Binaries
 
-### `Google.json` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.json` |
-
-### `Google.srs` — mixed · binary
+### Domains + IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -22,15 +14,7 @@ Google core domains and IP ranges
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.srs` |
 
-### `Google_site.json` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google_site.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.json` |
-
-### `Google_site.srs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -38,15 +22,7 @@ Google core domains and IP ranges
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.srs` |
 
-### `Google_ip.json` — ip · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google_ip.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.json` |
-
-### `Google_ip.srs` — ip · binary
+### IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -54,7 +30,33 @@ Google core domains and IP ranges
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.srs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google.json` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google_site.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_site.json` |
+
+### IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Google/Google_ip.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Google/Google_ip.json` |
+
+## Upstream sources
 
 - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google
 - https://github.com/v2fly/domain-list-community/blob/master/data/google

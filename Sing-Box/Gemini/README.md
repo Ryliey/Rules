@@ -4,17 +4,9 @@
 
 Gemini API and web
 
-## Files
+## Binaries
 
-### `Gemini.json` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Gemini/Gemini.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.json` |
-
-### `Gemini.srs` — mixed · binary
+### Domains + IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -22,15 +14,7 @@ Gemini API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.srs` |
 
-### `Gemini_site.json` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Gemini/Gemini_site.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.json` |
-
-### `Gemini_site.srs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -38,6 +22,24 @@ Gemini API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.srs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Gemini/Gemini.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini.json` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/Gemini/Gemini_site.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/Gemini/Gemini_site.json` |
+
+## Upstream sources
 
 - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Gemini/Gemini.list

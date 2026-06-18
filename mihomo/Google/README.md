@@ -4,25 +4,9 @@
 
 Google core domains and IP ranges
 
-## Files
+## Binaries
 
-### `Google.yaml` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google.yaml` |
-
-### `Google_site.yaml` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google_site.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.yaml` |
-
-### `Google_site.mrs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -30,15 +14,7 @@ Google core domains and IP ranges
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.mrs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.mrs` |
 
-### `Google_ip.yaml` — ip · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google_ip.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.yaml` |
-
-### `Google_ip.mrs` — ip · binary
+### IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -46,7 +22,33 @@ Google core domains and IP ranges
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.mrs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.mrs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google.yaml` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google_site.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_site.yaml` |
+
+### IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Google/Google_ip.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Google/Google_ip.yaml` |
+
+## Upstream sources
 
 - https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google
 - https://github.com/v2fly/domain-list-community/blob/master/data/google
