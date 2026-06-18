@@ -4,17 +4,9 @@
 
 OpenAI / ChatGPT API and web
 
-## Files
+## Binaries
 
-### `OpenAI.json` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.json` |
-
-### `OpenAI.srs` — mixed · binary
+### Domains + IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -22,15 +14,7 @@ OpenAI / ChatGPT API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.srs` |
 
-### `OpenAI_site.json` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI_site.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.json` |
-
-### `OpenAI_site.srs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -38,15 +22,7 @@ OpenAI / ChatGPT API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.srs` |
 
-### `OpenAI_ip.json` — ip · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI_ip.json` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.json` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.json` |
-
-### `OpenAI_ip.srs` — ip · binary
+### IP-CIDR
 
 | CDN | URL |
 | --- | --- |
@@ -54,7 +30,33 @@ OpenAI / ChatGPT API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.srs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.srs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI.json` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI_site.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_site.json` |
+
+### IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/Sing-Box/OpenAI/OpenAI_ip.json` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.json` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/Sing-Box/OpenAI/OpenAI_ip.json` |
+
+## Upstream sources
 
 - https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps#openaichatgpt-domains-to-allowlist
 - https://openai.com/chatgpt-voice.json

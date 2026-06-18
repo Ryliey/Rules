@@ -4,25 +4,9 @@
 
 Gemini API and web
 
-## Files
+## Binaries
 
-### `Gemini.yaml` — mixed · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Gemini/Gemini.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini.yaml` |
-
-### `Gemini_site.yaml` — site · source
-
-| CDN | URL |
-| --- | --- |
-| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Gemini/Gemini_site.yaml` |
-| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.yaml` |
-| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.yaml` |
-
-### `Gemini_site.mrs` — site · binary
+### Domains
 
 | CDN | URL |
 | --- | --- |
@@ -30,6 +14,24 @@ Gemini API and web
 | jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.mrs` |
 | jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.mrs` |
 
-## Sources
+## Source files
+
+### Domains + IP-CIDR
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Gemini/Gemini.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini.yaml` |
+
+### Domains
+
+| CDN | URL |
+| --- | --- |
+| GitHub | `https://raw.githubusercontent.com/Ryliey/Rules/main/mihomo/Gemini/Gemini_site.yaml` |
+| jsDelivr | `https://cdn.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.yaml` |
+| jsDelivr-CF | `https://testingcf.jsdelivr.net/gh/Ryliey/Rules@main/mihomo/Gemini/Gemini_site.yaml` |
+
+## Upstream sources
 
 - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Loon/Gemini/Gemini.list
