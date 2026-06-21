@@ -28,6 +28,10 @@ services:
   Microsoft:
     sources:
       - https://github.com/v2fly/domain-list-community/blob/master/data/microsoft
+  Telegram:
+    sources:
+      - https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Telegram.list
+      - https://github.com/v2fly/domain-list-community/blob/master/data/telegram
   SteamCN:
     sources:
       - https://www.dogfight360.com/blog/knowledge-base/fix_steamdl_region

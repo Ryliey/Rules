@@ -11,6 +11,7 @@ categories:
       - Bing
       - GitHub
       - Microsoft
+      - Telegram
   - name: AI
     description: AI and APIs
     services:
