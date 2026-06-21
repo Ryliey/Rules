@@ -1,3 +1,5 @@
+# Telegram — mihomo rule-provider (behavior: classical)
+# Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
 payload:
   - DOMAIN-SUFFIX,cdn-telegram.org
   - DOMAIN-SUFFIX,comments.app
@@ -20,10 +22,10 @@ payload:
   - DOMAIN-SUFFIX,toncenter.com
   - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,usercontent.dev
-  - IP-CIDR,91.108.0.0/16
-  - IP-CIDR,95.161.64.0/20
-  - IP-CIDR,109.239.140.0/24
-  - IP-CIDR,149.154.160.0/20
-  - IP-CIDR6,2001:67c:4e8::/48
-  - IP-CIDR6,2001:b28:f23d::/48
-  - IP-CIDR6,2001:b28:f23f::/48
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR,91.108.0.0/16,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve

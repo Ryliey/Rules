@@ -6,7 +6,7 @@
 
 | Global | | | | |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| [Google](./Google/) | [Bing](./Bing/) | [GitHub](./GitHub/) | [Microsoft](./Microsoft/) | |
+| [Google](./Google/) | [Bing](./Bing/) | [GitHub](./GitHub/) | [Microsoft](./Microsoft/) | [Telegram](./Telegram/) |
 
 ## AI
 
