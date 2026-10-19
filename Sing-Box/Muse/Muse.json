@@ -3,9 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "muse.ai",
         "meta.ai",
-        "metaaivm.com"
+        "metaaivm.com",
+        "muse.ai"
       ]
     }
   ]

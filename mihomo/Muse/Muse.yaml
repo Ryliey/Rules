@@ -1,0 +1,6 @@
+# Muse — mihomo rule-provider (behavior: classical)
+# Mixed source — edit here; RuleConv regenerates the split files, binaries and other clients.
+payload:
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaaivm.com
+  - DOMAIN-SUFFIX,muse.ai

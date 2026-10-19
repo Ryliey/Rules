@@ -13,6 +13,7 @@
 | AI | | | | |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | [OpenAI](./OpenAI/) | [Claude](./Claude/) | [Gemini](./Gemini/) | [Grok](./Grok/) | [Cursor](./Cursor/) |
+| [Muse](./Muse/) | | | | |
 
 ## Media
 
