@@ -20,6 +20,7 @@ categories:
       - Gemini
       - Grok
       - Cursor
+      - Muse
   - name: Media
     description: Streaming and media
     services: 
